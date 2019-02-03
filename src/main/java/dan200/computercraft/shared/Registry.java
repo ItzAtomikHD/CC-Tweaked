@@ -21,6 +21,7 @@ import dan200.computercraft.shared.media.items.ItemDiskExpanded;
 import dan200.computercraft.shared.media.items.ItemDiskLegacy;
 import dan200.computercraft.shared.media.items.ItemPrintout;
 import dan200.computercraft.shared.media.items.ItemTreasureDisk;
+import dan200.computercraft.shared.peripheral.coloredlight.TileColoredLight;
 import dan200.computercraft.shared.peripheral.common.BlockPeripheral;
 import dan200.computercraft.shared.peripheral.common.ItemPeripheral;
 import dan200.computercraft.shared.peripheral.diskdrive.TileDiskDrive;
@@ -131,6 +132,7 @@ public final class Registry
         GameRegistry.registerTileEntity( TileAdvancedModem.class, new ResourceLocation( ComputerCraft.MOD_ID, "advanced_modem" ) );
         GameRegistry.registerTileEntity( TileSpeaker.class, new ResourceLocation( ComputerCraft.MOD_ID, "speaker" ) );
         GameRegistry.registerTileEntity( TileWiredModemFull.class, new ResourceLocation( ComputerCraft.MOD_ID, "wired_modem_full" ) );
+        GameRegistry.registerTileEntity( TileColoredLight.class, new ResourceLocation( ComputerCraft.MOD_ID, "colored_light" ) );
     }
 
     private static <T extends ItemBlock> T setupItemBlock( T item )

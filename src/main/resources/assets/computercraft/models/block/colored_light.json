@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "front": "computercraft:blocks/colored_light",
+        "side": "computercraft:blocks/colored_light",
+        "top": "computercraft:blocks/colored_light"
+    }
+}

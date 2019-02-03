@@ -10,6 +10,7 @@ tile.computercraft:cable.name=Netzwerkkabel
 tile.computercraft:command_computer.name=Befehlscomputer
 tile.computercraft:advanced_modem.name=Endermodem
 tile.computercraft:speaker.name=Lautsprecher
+tile.computercraft:colored_light.name=Colored Light
 
 tile.computercraft:turtle.name=Turtle
 tile.computercraft:turtle.upgraded.name=Turtle (%s)
